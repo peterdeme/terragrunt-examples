@@ -3,5 +3,6 @@ resource "random_pet" "pet1" {
 }
 
 output "name" {
-  value = random_pet.pet1.id
+  value     = random_pet.pet1.id
+  sensitive = true
 }
