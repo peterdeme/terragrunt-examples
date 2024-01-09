@@ -1,5 +1,5 @@
 resource "random_pet" "pet1" {
-  length = 3
+  length = 4
 }
 
 output "name" {
